@@ -78,7 +78,7 @@ function comprarProductos() {
         mensaje += "\nTiene un resto de $" + valor + " en su cuenta. Le enviaremos una N/C también con el valor correspondiente para futuras compras. A menos que desee utilizarlo ahora.";
     }
     let respuesta = prompt(mensaje + "\n¿Desea realizar otra compra? (Si/No)").toLowerCase();
-    while (respuesta !== "si" && respuesta !== "no") {
+    while (respuesta !== "si" && respuesta !== "no" && respuesta == null) {
         respuesta = prompt("Por favor, responda Si o No. ¿Desea realizar otra compra? (Si/No)").toLowerCase();
     }
 
