@@ -47,6 +47,7 @@ ul {
     list-style: none;
     text-align: center;
     position: relative;
+    padding: 10px;
     li{
         background-color: rgba(21, 21, 56, 0.432);
         font-size: large;
@@ -92,7 +93,4 @@ ul {
     height: 100%;
     width: 100%;
     border: 2px solid white;    
-    @media screen and (max-width:768px) {
-        padding: 20px;
-    }
 }
