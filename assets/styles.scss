@@ -5,7 +5,9 @@ body {
     margin: auto;
     font-family: 'Nunito', sans-serif;
     background-image: url(../img/fondo.jpg);
-
+    @media screen and (max-width: 768px) {
+        width: 80%;        
+    }
 }
 
 h1 {
@@ -34,6 +36,10 @@ div {
         border-radius: 25%;
         height: 200px;
         width: 200px;
+        @media screen and (max-width: 768px) {
+            height: 150px;
+            width: 150px;            
+        }
     };
 }
 
@@ -61,4 +67,7 @@ ul {
     height: 100%;
     width: 100%;
     border: 2px solid white;    
+    @media screen and (max-width:768px) {
+        padding: 20px;
+    }
 }

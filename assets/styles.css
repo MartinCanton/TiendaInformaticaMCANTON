@@ -5,6 +5,11 @@ body {
   font-family: "Nunito", sans-serif;
   background-image: url(../img/fondo.jpg);
 }
+@media screen and (max-width: 768px) {
+  body {
+    width: 80%;
+  }
+}
 
 h1 {
   color: white;
@@ -34,6 +39,12 @@ div img {
   height: 200px;
   width: 200px;
 }
+@media screen and (max-width: 768px) {
+  div img {
+    height: 150px;
+    width: 150px;
+  }
+}
 
 ul {
   list-style: none;
@@ -60,4 +71,9 @@ ul :hover {
   height: 100%;
   width: 100%;
   border: 2px solid white;
+}
+@media screen and (max-width: 768px) {
+  .carro {
+    padding: 20px;
+  }
 }/*# sourceMappingURL=styles.css.map */

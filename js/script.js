@@ -17,7 +17,7 @@ if (telefono !== null) {
     alert("Número de teléfono válido: " + telefono);
 }
 
-    alert("Bienvenido a Informática Mcanton");
+    alert("Bienvenido, ahora si puede continuar.");
 
 //Molde de productos a utilizar
 class Producto {
