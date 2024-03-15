@@ -2,22 +2,25 @@
 alert("Bienvenido a Informática Mcanton")
 
 let telefono;
+let validInput = false;
+
 do {
     telefono = prompt("Por favor, ingrese su número de teléfono así luego podremos enviarle su factura:");
     if (telefono === null) {
-        break;
-    }
-    telefono = telefono.trim(); 
-    if (telefono.length < 7 || telefono.length > 15 || isNaN(parseInt(telefono))) {
         alert("Por favor, ingrese un número de teléfono válido entre 7 y 15 caracteres.");
+    } else {
+        telefono = telefono.trim(); 
+        if (telefono.length < 7 || telefono.length > 15 || isNaN(parseInt(telefono))) {
+            alert("Por favor, ingrese un número de teléfono válido entre 7 y 15 caracteres.");
+        } else {
+            validInput = true; 
+        }
     }
-} while (telefono === null || telefono.length < 7 || telefono.length > 15 || isNaN(parseInt(telefono)));
+} while (!validInput);
 
-if (telefono !== null) {
-    alert("Número de teléfono válido: " + telefono);
-}
 
-    alert("Bienvenido, ahora si puede continuar.");
+alert("Número de teléfono válido: " + telefono);
+alert("Bienvenido, ahora sí puede continuar.");
 
 //Molde de productos a utilizar
 class Producto {
