@@ -112,6 +112,26 @@ const nodoValor = document.querySelector("#valor");
 nodoValor.innerText = valor;
 const nodoCarrito = document.querySelector("#carrito");
 
-
+//Eventos
 document.getElementById("btnBilletera").addEventListener("click", agregarSaldoBilletera);
 document.getElementById("btnComprar").addEventListener("click", comprarProductos);
+
+document.getElementById("procesador").addEventListener("click", function() {
+    agregarAlCarrito(procesador);
+});
+
+document.getElementById("mother").addEventListener("click", function() {
+    agregarAlCarrito(mother);
+});
+
+document.getElementById("ram").addEventListener("click", function() {
+    agregarAlCarrito(ram);
+});
+
+document.getElementById("placa_video").addEventListener("click", function() {
+    agregarAlCarrito(placa__video);
+});
+
+document.getElementById("fuente").addEventListener("click", function() {
+    agregarAlCarrito(fuente);
+});
