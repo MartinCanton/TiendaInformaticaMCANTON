@@ -391,4 +391,102 @@ body.dark .menu li a {
 
 .carousel-inner {
   max-height: 40rem !important;
+}
+
+@media (max-width: 768px) {
+  /* ============== Menu ============== */
+  .menu {
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: #303030;
+    color: rgb(224, 224, 224);
+    height: 100%;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  .menu .li-switch {
+    margin: 40px 0;
+  }
+  .menu li {
+    padding: 0;
+  }
+  .menu li a {
+    color: rgb(224, 224, 224);
+    line-height: 70px;
+    font-size: 25px;
+  }
+  .open-menu, .close-menu, .close-menu-social {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  .close-menu {
+    align-self: flex-end;
+    padding: 20px 25px;
+  }
+  .open-menu {
+    padding: 0 15px;
+  }
+  .menu_opened {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .menu a::after {
+    content: none;
+  }
+  .menu a:hover,
+  .menu a.selected {
+    color: rgb(219, 160, 32);
+  }
+  .menu a:hover {
+    color: rgb(219, 160, 32);
+  }
+  /* ============== Menu ============== */
+  .menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+  }
+  .menu2 li {
+    padding: 5px 5px;
+  }
+  /* ============== Index ============== */
+  h1 {
+    font-size: 40px;
+  }
+  .productos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .productos .imagenProductos img {
+    max-width: 370px;
+  }
+  .productos .textoProductos {
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+  /* ============== Index ============== */
+  /* ============== footer ============== */
+  .footerContainer .grupo1 {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 35px 0px;
+    text-align: center;
+  }
+  .footerContainer .grupo1 h5 {
+    text-align: center;
+  }
+  .footerContainer .grupo1 .parrafoFooter {
+    text-align: center;
+  }
+  /* ============== footer ============== */
 }/*# sourceMappingURL=styles.css.map */
