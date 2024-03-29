@@ -1,0 +1,162 @@
+[
+    {
+        "id": "placa1650",
+        "titulo": "Placa de Video Asus GeForce GTX 1650",
+        "marca": "asus",
+        "precio": 190000,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_37357_Placa_de_Video_ASUS_GeForce_GTX_1650_4GB_GDDR6_Phoenix_EVO_OC_e21bd89c-grn.jpg",
+        "categoria": "placas"
+    },
+    {
+        "id": "placa2060",
+        "titulo": "Placa de Video Asus GeForce RTX 2060",
+        "marca": "asus",
+        "precio": 424500,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_35055_Placa_de_Video_ASUS_GeForce_RTX_2060_6GB_GDDR6_DUAL_EVO_OC_7f0f6555-grn.jpg",
+        "categoria": "placas"
+    },
+    {
+        "id": "placa4060",
+        "titulo": "Placa de Video MSI GeForce RTX 4060Ti",
+        "marca": "msi",
+        "precio": 567550,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38726_Placa_de_Video_MSI_GeForce_RTX_4060_Ti_8GB_GDDR6_Ventus_2X_Black_OC_c5c8d0b9-grn.jpg",
+        "categoria": "placas"
+    },
+    {
+        "id": "placa4070",
+        "titulo": "Placa de Video MSI GeForce RTX 4060",
+        "marca": "msi",
+        "precio": 944620,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38741_Placa_de_Video_MSI_GeForce_RTX_4070_SUPER_12GB_GDDR6X_Ventus_3X_OC_611646c1-grn.jpg",
+        "categoria": "placas"
+    },
+    {
+        "id": "ryzen5",
+        "titulo": "Procesador AMD Ryzen 5 3600 ",
+        "marca": "amd",
+        "precio": 150000,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_16749_Procesador_AMD_RYZEN_5_3600_4.2GHz_Turbo_AM4_Wraith_Stealth_Cooler_f8ab4915-grn.jpg",
+        "categoria": "procesadores"
+    },
+    {
+        "id": "ryzen7",
+        "titulo": "Procesador AMD Ryzen 7 5800x",
+        "marca": "amd",
+        "precio": 345000,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_16749_Procesador_AMD_RYZEN_5_3600_4.2GHz_Turbo_AM4_Wraith_Stealth_Cooler_f8ab4915-grn.jpg",
+        "categoria": "procesadores"
+    },
+    {
+        "id": "inteli3",
+        "titulo": "Procesador Intel Core I3 12100",
+        "marca": "intel",
+        "precio": 154900,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_31717_Procesador_Intel_Core_i3_12100_4.3GHz_Socket_1700_Alder_Lake_28683e1f-grn.jpg",
+        "categoria": "procesadores"
+    },
+    {
+        "id": "inteli7",
+        "titulo": "Procesador Intel Core I7 12100F",
+        "marca": "intel",
+        "precio": 384920,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38643_Procesador_Intel_Core_i7_12700F_4.9GHz_Turbo_Socket_1700_Alder_Lake_6fed9cfe-grn.jpg",
+        "categoria": "procesadores"
+    },
+    {
+        "id": "mothera520",
+        "titulo": "Motherboard ASUS A520M-K",
+        "marca": "asus",
+        "precio": 92100,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_20551_Mother_ASUS_PRIME_A520M-K_DDR4_AM4_f5d89e00-grn.jpg",
+        "categoria": "mother"
+    },
+    {
+        "id": "motherb450",
+        "titulo": "Motherboard ASUS TUF B450M",
+        "marca": "asus",
+        "precio": 130000,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_21972_Mother_ASUS_TUF_B450M-PLUS_II_AM4_f445a9d2-grn.jpg",
+        "categoria": "mother"
+    },
+    {
+        "id": "motherh610",
+        "titulo": "Motherboard GIGABYTE H610M",
+        "marca": "gigabyte",
+        "precio": 131800,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_30910_Mother_Gigabyte_H610M_H_DDR4_12va_Gen_S1700_66d55d63-grn.jpg",
+        "categoria": "mother"
+    },
+    {
+        "id": "motherb660",
+        "titulo": "Motherboard ASUS B660M-A",
+        "marca": "asus",
+        "precio": 192800,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_30385_Mother_ASUS_PRIME_B660M-A_D4_adecd1c1-grn.jpg",
+        "categoria": "mother"
+    },
+    {
+        "id": "ram01",
+        "titulo": "Memoria RAM KINGSTON 8GB 3200MHz",
+        "marca": "kingston",
+        "precio": 30950,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_33000_Memoria_Kingston_DDR4_8GB_3200MHz_Fury_Beast_CL16_946d0a56-grn.jpg",
+        "categoria": "ram"
+    },
+    {
+        "id": "ram02",
+        "titulo": "Memoria RAM KINGSTON 16GB 3200MHz",
+        "marca": "kingston",
+        "precio": 58350,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38758_Memoria_Kingston_DDR4_16GB_3200MHz_Fury_Beast_RGB_CL16_d3dfb802-grn.jpg",
+        "categoria": "ram"
+    },
+    {
+        "id": "monitor01",
+        "titulo": "Monitor LG '24' Full HD. IPS 24 Bordes ULTRA FINOS",
+        "marca": "LG",
+        "precio": 179950,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_16040_Monitor_LG_24__24MK600M_IPS_Full_HD_Bordes_Ultra_Finos_a7b8df97-grn.jpg",
+        "categoria": "monitores"
+    },
+    {
+        "id": "monitor02",
+        "titulo": "Monitor LG '27' 144Hz Full HD. IPS FreeSync GSync",
+        "marca": "LG",
+        "precio": 357240,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_19484_Monitor_Gamer_LG_27__27GL650F_144hz_IPS_FHD_GSync_FreeSync_1e30b9f9-grn.jpg",
+        "categoria": "monitores"
+    },
+    {
+        "id": "ssd01",
+        "titulo": "Disco SSD Kingston 480GB 500MB/s",
+        "marca": "kingston",
+        "precio": 41120,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_9238_Disco_S__lido_SSD_Kingston_480GB_A400_500MB_s_fe39619d-grn.jpg",
+        "categoria": "discos"
+    },
+    {
+        "id": "ssd02",
+        "titulo": "Disco SSD Kingston 960GB 500MB/s",
+        "marca": "kingston",
+        "precio": 71700,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_11123_Disco_S__lido_SSD_Kingston_960GB_A400_500MB_s_9c46a94b-grn.jpg",
+        "categoria": "discos"
+    },
+    {
+        "id": "ssd02",
+        "titulo": "Disco SSD M.2 Kingston 1TB 3500MB/s",
+        "marca": "kingston",
+        "precio": 84290,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_35375_Disco_S__lido_SSD_M.2_Kingston_1TB_NV2_3500MB_s_NVME_PCI-E_4x_b4183908-grn.jpg",
+        "categoria": "discos"
+    },
+    {
+        "id": "rigido01",
+        "titulo": "Disco Rigido WD 2TB 256MB 6.0GB/s",
+        "marca": "wd",
+        "precio": 74810,
+        "img": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_21014_Disco_Rigido_WD_2TB_BLUE_256MB_SATA_6.0GB_s_44f766ac-grn.jpg",
+        "categoria": "discos"
+    }
+]

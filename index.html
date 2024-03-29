@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFORMATICA MCANTON</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./assets/styles.css">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Tercera pre-entrega | JavaScript</title>
 </head>
 <body class="">
     <header class="topheader">
         <nav class="topnav">
-            <a href="./index.html"> INFORMATICA MCANTON</a>
+            <a href="./index.html" class="logo"> INFORMATICA MCANTON</a>
             <button class="open-menu" aria-label="Abrir menú">
                 <img src="./img/hamburger-icon.svg" alt="abrir menu">
             </button>
@@ -37,7 +39,7 @@
                         <a target="_blank" href="" class="close-menu">
                             <img src="./img/github.svg" alt="github profile"/>
                         </a>
-                        <a target="_blank" href="">
+                        <a target="_blank" href="" class="close-menu">
                             <img src="./img/linkedin.svg" alt="linkedin profile"/>
                         </a>
                     </li>
@@ -45,52 +47,96 @@
             </ul>
         </nav>
     </header>
-    <hero>
-        <div class="tituloGeneral">
-        <h1>Bienvenidos a Informatica MCANTON</h1>
-        </div>
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">            
-              <div class="carousel-item active" data-bs-interval="3000">
-                <img src="./img/fuente.jpg" class="d-block w-75 mx-auto" alt="slide1">
-              </div> 
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/mother.jpg" class="d-block w-75 mx-auto" alt="slide2">
-              </div>
-              <div class="carousel-item" data-bs-interval="3000">
-                <img src="./img/placavideo.jpg" class="d-block w-75 mx-auto" alt="slide3">
-              </div> 
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
-          </div>  
-    </hero>
+
     <main>
 
-    </main>
-   
-   
-    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
-        <p class="px-3  pt-3">iNFORMATICA MCANTON &copy; Todos Los Derechos Reservados</p>
-        <div id="iconos" >
-            <a href="https://facebook.com/coderhouse"><i class="bi bi-facebook"></i></a>
-            <a href="https://twitter.com/coderhouse"><i class="bi bi-twitter"></i></a>
-            <a href="https://instagram.com/coderhouse"><i class="bi bi-instagram"></i></a>  
-        </div>
-    </footer>   
+        <div class="horizontal-padding vertical-padding">
 
+            <div class="tituloGeneral">
+                <h1>¡Bienvenido a Informatica MCANTON!</h1>
+            </div>
+            
+            <section class="productos">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">            
+                      <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img/placavideo.jpg" class="d-block w-75 mx-auto" alt="placaslide">
+                      </div> 
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/fuente.jpg" class="d-block w-75 mx-auto" alt="fuenteslide">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/procesador.jpg" class="d-block w-75 mx-auto" alt="procesadorslide">
+                      </div> 
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </button>
+                  </div>
+            </section>
+            <hr>
+            <div>
+                    <div class="menu2">
+                        <li>
+                            <button id="todos" class="btnCompra boton-menu boton-categoria active">Todas los productos</button>
+                        </li>
+                        <li>
+                            <button id="placas" class="btnCompra boton-menu boton-categoria">Placas de Video</button>
+                        </li>
+                        <li>
+                            <button id="procesadores" class="btnCompra boton-menu boton-categoria">Procesadores</button>
+                        </li>
+                        <li>
+                            <button id="mother" class="btnCompra boton-menu boton-categoria">Motherboards</button>
+                        </li>
+                        <li>
+                            <button id="ram" class="btnCompra boton-menu boton-categoria">Memorias Ram</button>
+                        </li>
+                        <li>
+                            <button id="monitores" class="btnCompra boton-menu boton-categoria">Monitores</button>
+                        </li>
+                        <li>
+                            <button id="discos" class="btnCompra boton-menu boton-categoria">Almacenamiento</button>
+                        </li>
+                    </div>
+            </div>
+            <hr>
+            <div class="row row-cols-1 row-cols-md-4 g-4 cardBootstrap" id="cardBootstrap">
+                
+            </div>
+
+    
+</main>
+
+<!-- footer -->
+<footer class="footerContainer">
+    <div class="grupo1">
+            <div class="cajaFooter">
+                <h5>NUESTRAS REDES</h5>
+                <div class="redes">
+                    <a target="_blank" href="" class="fa fa-facebook"></a>
+                    <a target="_blank" href="" class="fa fa-twitter"></a>
+                    <a target="_blank" href="" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy; 2024 <b>Informatica MCANTON</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b74834922d.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="./js/carrito.js"></script>
     <script src="./js/darkMode.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
