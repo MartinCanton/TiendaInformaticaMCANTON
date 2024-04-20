@@ -18,7 +18,7 @@ Bienvenido/a a Informática Mcanton, un sitio web creado por Martín Cantón, en
 
 * Dentro del carrito podemos visualizar el total de nuestra compra, sumando los productos y actualizable al quitarse alguno. También tiene un botón para comprar, el cúal nos arroja un mensaje luego de presionarse y nos vacía dicho carrito.
 
-
+* Luego del commit 97f7b61 se ajustaron las mediasqueries para hacer responsive el sitio.
 
 
 
